@@ -1,0 +1,7 @@
+name,email,owner,allowed_endpoints,scope,expiration_date,usage_limit,ip_restrictions,referer_restrictions,user_agent_restrictions,custom_fields
+MyApp,john.doe@example.com,John Doe,"[/api/v1/products, /api/v1/orders]",read,2023-12-31T23:59:59.000,1000,"[]","[]","[]","{""account_id"": 12345}"
+XYZ Corp.,support@xyz.com,Jane Smith,"[/api/v1/customers]",write,2024-06-30T23:59:59.000,500,"[192.168.0.1]","[www.example.com]","[""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3""]","{""account_id"": 67890}"
+ABC Ltd.,sales@abc.com,Jack Johnson,"[/api/v1/products]",read_write,2022-12-31T23:59:59.000,500,"[192.168.0.1, 192.168.0.2]","[www.example.com, www.sample.com]","[""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3""]","{""account_id"": 13579}"
+XYZ Inc.,info@xyzinc.com,Sara Lee,"[/api/v1/orders]",read,2025-12-31T23:59:59.000,2000,"[]","[]","[]","{""account_id"": 24680}"
+ABC Inc.,support@abcinc.com,Mike Johnson,"[/api/v1/customers, /api/v1/orders]",write,2023-06-30T23:59:59.000,1000,"[]","[]","[]","{""account_id"": 36912}"
+Acme Corp.,info@acmecorp.com,Sam Smith,"[/api/v1/customers]",read_write,2024-12-31T23:59:59.000,1500,"[192.168.0.1, 192.168.0.2, 192.168.0.3]","[www.example.com, www.sample.com, www.demo.com]","[""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3""]","{""account_id"": 97531}"
